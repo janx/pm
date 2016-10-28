@@ -27,7 +27,7 @@ EIP 158 and 161 are now equivalent, after changes were made to 158. 161 will be 
 It was discussed whether a 5x increase in cost was enough. Benchmarks indicated that EXP is 4-8 times underpriced. It was decided that a 5x increase is sufficient for now and it may be increased in the Metropolis hard fork after more analysis. There are ongoing efforts to work on better benchmarking tools which will help determine future OPCODE pricing changes.
 ### Replay attack protection
 Three proposals discussed:
-   1. EIP 134 (include a blockhash in an RLP field of each tx)
+   1. EIP 134 (includ a blockhash in an RLP field of each tx)
    2. EIP 155 (inlude a `CHAIN_ID` as a factor in the `v` value of the EDCSA signature scheme and in the tx hash)
    3. EIP 166 (include a `CHAIN_ID` in the high-order bits of the tx nonce)
    
@@ -38,10 +38,10 @@ Block number for hard fork will be decided on Monday.
 
 ## 2. EIP/ERC GitHub Organization
 ###Improvement Discussion
-Hudson and other editors will clean up the EIPs and continue dialog about what to change in the repo.
+Hudson will clean up the EIPs and continue dialog about what to change in the repo.
 
 ## Non-agenda
 Future meetings will start being held twice monthly in order to process EIPs more quickly. We will likely have a set time/date (such as every other Monday) to prevent the added complexity of using Doodle's to ask a bunch of people what time works best for them.
 
 ## Attendance
-Alex Beregszaszi (Solidity), Alex Van de Sande (Mist/Ethereum Wallet), Anton Nashatyrev (ethereumJ), Casey Detrio (Volunteer), Christian Reitwiessner (cpp-ethereum), Dan Finlay (MetaMask), Dimitry Khokhlov (cpp-ethereum), Felix Lange (geth), Greg Colvin (EVM), Hudson Jameson (Ethereum Foundation), Jan Xie (ethereum-ruby & pyethereum), Jeffrey Wilcke (geth), Martin Becze (Research), Péter Szilágyi (geth), Vitalik Buterin (Research & pyethereum)
+Alex Beregszaszi (Solidity), Alex Van de Sande (Mist/Ethereum Wallet), Anton Nashatyrev (ethereumJ), Casey Detrio (Volunteer), Christian Reitwiessner (cpp-ethereum), Dan Finlay (MetaMask), Dimitry Khokhlov (cpp-ethereum), Felix Lange (geth), Greg Colvin (EVM), Hudson Jameson (Ethereum Foundation), Jan Xie (ruby-ethereum & pyethereum), Jeffrey Wilcke (geth), Martin Becze (Research), Péter Szilágyi (geth), Vitalik Buterin (Research & pyethereum)
